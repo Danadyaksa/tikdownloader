@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   description: "Unduh video TikTok tanpa watermark secara gratis, cepat, dan bersih dari iklan. Mendukung video HD, foto slide, dan audio MP3.",
   keywords: ["tiktok downloader", "download tiktok tanpa watermark", "tiktok mp3", "tiktok photo slide download"],
   icons: {
-    icon: "/icon.svg",
-    apple: "/icon.svg",
+    icon: "/icon.png",
+    apple: "/icon.png",
   },
 };
 
