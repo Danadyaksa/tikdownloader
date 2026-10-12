@@ -15,8 +15,8 @@ export async function POST(req: NextRequest) {
 
     const trimmedUrl = rawUrl.trim();
 
-    // Validasi domain TikTok
-    const tiktokRegex = /(tiktok\.com|douyin\.com)/i;
+    // Validasi domain TikTok (tiktok.com, tiktokv.com, douyin.com, dll)
+    const tiktokRegex = /(tiktok\.com|tiktokv\.com|douyin\.com)/i;
     if (!tiktokRegex.test(trimmedUrl)) {
       return NextResponse.json<ExtractApiResponse>(
         {
