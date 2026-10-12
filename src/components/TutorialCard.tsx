@@ -22,22 +22,22 @@ export default function TutorialCard() {
     >
       <h2
         style={{
-          fontSize: "18px",
+          fontSize: "17px",
           fontWeight: "800",
           color: "var(--text-main)",
           marginBottom: "4px",
         }}
       >
-        Fast Watermark-Free Download
+        Cara Pakainya Gampang:
       </h2>
       <p
         style={{
-          fontSize: "13px",
+          fontSize: "12px",
           color: "var(--text-muted)",
-          marginBottom: "20px",
+          marginBottom: "18px",
         }}
       >
-        No login · No charge · No ads
+        Ikutin 3 langkah simpel ini ya
       </p>
 
       {/* 3 Steps Visual Flow */}
@@ -47,7 +47,7 @@ export default function TutorialCard() {
           alignItems: "center",
           justifyContent: "space-between",
           gap: "8px",
-          marginBottom: "22px",
+          marginBottom: "20px",
         }}
       >
         {/* Step 1 */}
@@ -68,7 +68,7 @@ export default function TutorialCard() {
             <Share2 size={20} />
           </div>
           <span style={{ fontSize: "12px", fontWeight: "600", color: "var(--text-main)" }}>
-            Tap share
+            Pencet share
           </span>
         </div>
 
@@ -93,7 +93,7 @@ export default function TutorialCard() {
             <LinkIcon size={20} />
           </div>
           <span style={{ fontSize: "12px", fontWeight: "600", color: "var(--text-main)" }}>
-            Copy link
+            Salin tautan
           </span>
         </div>
 
@@ -118,7 +118,7 @@ export default function TutorialCard() {
             <Download size={20} />
           </div>
           <span style={{ fontSize: "12px", fontWeight: "600", color: "var(--text-main)" }}>
-            Download
+            Download deh
           </span>
         </div>
       </div>
@@ -145,7 +145,7 @@ export default function TutorialCard() {
         }}
       >
         <ExternalLink size={16} />
-        <span>Open TikTok & Copy Link</span>
+        <span>Buka TikTok Buat Salin Link</span>
       </button>
     </div>
   );

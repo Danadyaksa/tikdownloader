@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Sparkles } from "lucide-react";
+import { Heart } from "lucide-react";
 
 export default function Header() {
   return (
@@ -15,7 +15,7 @@ export default function Header() {
         display: "inline-flex",
         alignItems: "center",
         gap: "10px",
-        marginBottom: "6px",
+        marginBottom: "8px",
       }}>
         {/* Logo SVG dengan aksen TikTok Cyan & Pink */}
         <div style={{
@@ -56,15 +56,16 @@ export default function Header() {
         display: "inline-flex",
         alignItems: "center",
         gap: "6px",
-        padding: "4px 12px",
+        padding: "5px 14px",
         borderRadius: "var(--radius-full)",
         background: "var(--accent-pink-subtle)",
         color: "var(--accent-pink)",
-        fontSize: "12px",
+        fontSize: "13px",
         fontWeight: "600",
+        border: "1px solid rgba(254, 44, 85, 0.15)",
       }}>
-        <Sparkles size={13} />
-        <span>100% Free · No Watermark · Bebas Iklan</span>
+        <Heart size={14} fill="var(--accent-pink)" />
+        <span>buat ikaku sayang</span>
       </div>
     </header>
   );

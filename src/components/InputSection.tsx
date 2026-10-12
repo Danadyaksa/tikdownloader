@@ -74,7 +74,7 @@ export default function InputSection({
           type="url"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
-          placeholder="Paste TikTok link here..."
+          placeholder="taruh disini linknya..."
           disabled={isLoading}
           style={{
             width: "100%",
