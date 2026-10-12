@@ -45,3 +45,7 @@ next-env.d.ts
 *.png
 !img1.png
 !img2.png
+!logo.png
+!public/logo.png
+!public/icon.png
+!src/app/icon.png
