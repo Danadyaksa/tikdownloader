@@ -25,20 +25,11 @@ export default function TutorialCard() {
           fontSize: "17px",
           fontWeight: "800",
           color: "var(--text-main)",
-          marginBottom: "4px",
+          marginBottom: "20px",
         }}
       >
-        Cara Pakainya Gampang:
+        Cara Pakai
       </h2>
-      <p
-        style={{
-          fontSize: "12px",
-          color: "var(--text-muted)",
-          marginBottom: "18px",
-        }}
-      >
-        Ikutin 3 langkah simpel ini ya
-      </p>
 
       {/* 3 Steps Visual Flow */}
       <div
@@ -118,7 +109,7 @@ export default function TutorialCard() {
             <Download size={20} />
           </div>
           <span style={{ fontSize: "12px", fontWeight: "600", color: "var(--text-main)" }}>
-            Download deh
+            Download
           </span>
         </div>
       </div>

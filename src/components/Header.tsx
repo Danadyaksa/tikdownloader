@@ -10,12 +10,16 @@ export default function Header() {
       textAlign: "center",
       borderBottom: "1px solid var(--border-subtle)",
       background: "linear-gradient(180deg, #FFFFFF 0%, #FAFAFC 100%)",
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "center",
+      gap: "6px",
     }}>
+      {/* Baris Atas: Logo & TikDownloader */}
       <div style={{
         display: "inline-flex",
         alignItems: "center",
         gap: "10px",
-        marginBottom: "8px",
       }}>
         {/* Logo SVG dengan aksen TikTok Cyan & Pink */}
         <div style={{
@@ -52,20 +56,21 @@ export default function Header() {
         </h1>
       </div>
 
+      {/* Baris Bawah: Tepat di Bawah TikDownloader */}
       <div style={{
         display: "inline-flex",
         alignItems: "center",
         gap: "6px",
-        padding: "5px 14px",
+        padding: "4px 14px",
         borderRadius: "var(--radius-full)",
         background: "var(--accent-pink-subtle)",
         color: "var(--accent-pink)",
-        fontSize: "13px",
+        fontSize: "12px",
         fontWeight: "600",
         border: "1px solid rgba(254, 44, 85, 0.15)",
       }}>
-        <Heart size={14} fill="var(--accent-pink)" />
-        <span>buat ikaku sayang</span>
+        <Heart size={13} fill="var(--accent-pink)" />
+        <span>punya ikaku</span>
       </div>
     </header>
   );
